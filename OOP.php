@@ -10,7 +10,7 @@
 
         //The __construct method will run everytime when a instance of a class is created.
         function __construct(){
-            echo $this->wheels."</br>";
+            echo "This is the constructer running. </br>";
         }
 
         //This becomes a method.
@@ -80,4 +80,3 @@
     echo $jet->wings. "</br>";
     echo $jet->computer. "</br>";
     echo $jet->radio. "</br>";
-?>
